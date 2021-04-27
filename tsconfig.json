@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "alwaysStrict": true,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*"],
+  "exclude": []
+}
