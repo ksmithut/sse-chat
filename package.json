@@ -1,0 +1,17 @@
+{
+  "name": "sse-chat",
+  "description": "",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16.x"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
