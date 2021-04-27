@@ -34,12 +34,17 @@ inputForm.addEventListener('submit', event => {
     .then(res => {
       if (res.status === 201) {
         message.value = ''
-      } else throw new Error('Error submitting text')
+      } else {
+        throw Object.assign(new Error('Error submitting text'), {
+          res
+        })
+      }
     })
     .catch(err => {
       console.error(err)
     })
     .finally(() => {
       message.disabled = false
+      message.focus()
     })
 })
